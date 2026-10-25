@@ -1,0 +1,14 @@
+// Sum of n natural no
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter your no: ";
+    cin>>n;
+    int sum = 0;
+    for(int i=1; i<=n; i++){
+        sum = sum+i;
+    }
+    cout<<"Your sum is : "<<sum<<endl;
+    return 0;
+}
